@@ -20,3 +20,6 @@ if (process.env.JAWSDB_URL) {
   }
   
   module.exports = sequelize;
+
+  // what do I do 
+  

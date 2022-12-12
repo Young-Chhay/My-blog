@@ -20,7 +20,7 @@ ___
 Make sure to have GitBash, Node.js, and VSCode installed for sucess. Further installations would be to install NPM MySql, Express, Express Handlebars, handlebars, MySQL2 and Sequelize.
 
 ## Links :
-* [Github.com/Young-Chhay/Young-WorkDay-Scheduler ](https://github.com/Young-Chhay/Young-WorkDay-Scheduler "Young's Github Page")
+* [Github.com/Young-Chhay/tech ](https://github.com/Young-Chhay/My-blog "Young's Github Page")
 
 * [Deployed Webpage - (Young's Workday Scheduler)](https://young-chhay.github.io/Young-WorkDay-Scheduler/ "Work Day Scheduler")
 
