@@ -1,0 +1,41 @@
+<div class="container-fluid main-container">
+  <div class="container align-right">
+    <a href="/dashboard/newpost"><button
+        class="btn btn-primary btn-add-post"
+      >Add POST</button></a>
+  </div>
+
+  {{#each blogs as |blog|}}
+    <div class="card">
+      <div class="card-header">
+        <h3>
+          {{blog.title}}
+        </h3>
+        <p>Posted by
+          {{blog.user.username}}
+          on
+          {{format_date blog.date_created}}</p>
+      </div>
+      <div class="card-body">
+        <p class="card-text">{{blog.body}}</p>
+        <div class="container button-container">
+          <div class="grouped-button">
+            <a href="/blog/{{blog.id}}" class="btn btn-primary">View Post </a>
+            <a href="/dashboard/{{blog.id}}" class="btn btn-primary">Update Post</a>
+          </div>
+          <div class="dashboard-container">
+            <button
+              class="btn btn-danger"
+              id="blog-delete-btn"
+              type="button"
+              value="{{blog.id}}"
+            >Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+
+</div>
+
+<script src="./js/deleteBlog.js"></script>
